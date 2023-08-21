@@ -1,0 +1,178 @@
+
+@media screen and (max-width:479px){
+    *{
+        margin: 0;
+        padding: 0;
+       
+
+    }
+    body,html{
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    .title{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: small;
+    }
+    
+    
+    
+    #profile{
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        flex-direction: column;
+      margin-left: -.08rem;
+        
+      
+    }
+    .section-text-p2{
+        font-size: 1.2rem;
+    }
+    .section-pic-container img{
+        height: 30vh;
+    }
+    .section-text{
+        margin-top: -25vh;
+       
+    }
+   .section2-container{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   }
+   .section-pic img{
+    margin-top: -3rem;
+   }
+  
+  
+ 
+    
+  
+  .about-details{
+    flex-direction: column;
+    
+    
+    
+  }
+  .about-details-container{
+    margin-left: -.08rem;
+  }
+  .text-container{
+    text-align: center;
+    padding: 0 1rem;
+    margin-top: -1rem;
+    
+  }
+  
+#about{
+    height: 100%;
+    width: 100%;
+   
+    margin-left: -.08rem;
+        
+}
+
+
+
+#experience{
+    height: 100%;
+    width: 100%;
+    
+    margin-left: -.08rem;
+    margin-top: 5rem;
+   
+   
+}
+.experience-containers{
+    flex-direction: column;
+ 
+}
+.exp-container{
+    width: 60vw;
+    height: 30vh;
+}
+#project{
+    height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        margin-left: -.08rem;
+        margin-top: 5rem;
+        
+    
+}
+.project-container img{
+    height: 15vh;
+    width: 15vh;
+   
+
+}
+
+.project-container{
+    height: vh;
+    width: 30vw;
+    
+   
+}
+#contact{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: -.08rem;
+}
+.contac-details{
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+   
+}
+.contact{
+    display:flex ;
+    align-items: center;
+    border: .1rem solid;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5rem;
+   
+   
+
+
+}
+.down-nav{
+    flex-direction: column;
+}
+.copyright{
+    display: flex;
+    justify-content:space-around ;
+}
+
+
+
+
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    #desktop-nav{
+        display: none;
+
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+}
+
